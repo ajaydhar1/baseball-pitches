@@ -1,5 +1,5 @@
 # Baseball Pitches
-The full source code for a PHP website I made that shows a visual glossary of the main types of baseball pitches.
+The full source code for a PHP website I built that shows a visual glossary of the primary types of baseball pitch.
 
 <!-- TOC -->
 ## Table Of Contents
@@ -30,7 +30,7 @@ The full source code for a PHP website I made that shows a visual glossary of th
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a simple PHP website I made for myself to learn a little more about baseball ⚾. Pitching is like 90% of the game, so I figured if I could recognize the pitches as they're thrown, I could enjoy the games a little more. And it worked! I have grown to really enjoy watching baseball games : )
+This is a simple PHP website I made for myself to learn a little more about baseball ⚾. Pitching is like 90% of the game, so I figured if I could recognize the pitches as they're thrown, I could enjoy the games a little more. And it worked! I have grown to really enjoy watching baseball games :)
 
 [![Product Name Screen Shot][product-screenshot]](https://baseball-pitches.com)
 
@@ -53,13 +53,13 @@ For this site there is one webpage, "index.php", that imports three PHP fragment
 
 The one and only webpage in this project is named "index.php".
 
-Note: the default webpage that is shown when the domain name is entered in the address bar is always the file named "index". This is true for all websites.
+Note: the default webpage displayed when the domain name is entered into the address bar is always the file named "index". This is true for all websites.
 
 **PHP Fragments:**
 
-There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention of having the file name prepended with three underscores, like "___config.php".
+There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention that prepends the filename with three underscores, like "___config.php".
 
-For this project, seperating the code into three PHP fragment files was done for readability. But in larger, multi-page projects, it's also done for reusability. Like for showing the same menu across multiple pages. So if you have to make a change to the menu, you only have to make it in one file, the menu fragment file.
+For this project, the code was separated into three PHP fragments for readability, but in larger, multi-page projects, it's also done for reusability. For instance, in order to show the same menu across multiple pages. This way, if you have to make a change to the menu, you only have to make it in one file: the menu fragment file.
 
 #### The Directories:
 
@@ -72,7 +72,7 @@ For this project, seperating the code into three PHP fragment files was done for
 
 ### Webpage Design
 
-The webpage consists of a full screen YouTube video and a side navigation menu for choosing the different types of pitches to show.
+The webpage consists of a full-screen YouTube video and a side navigation menu for choosing the different types of pitches to show.
 
 [![Product Name Screen Shot][product-screenshot]](https://baseball-pitches.com)
 
@@ -80,13 +80,13 @@ The webpage consists of a full screen YouTube video and a side navigation menu f
 
 When the user first lands on the website, the reel for the Four Seam Fastball is shown by default.
 
-If the user then selects another pitch type from the side nav, the same "index.php" page gets reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page is reloaded, the "___pitch_selector.php" fragment determines which video reel to show based on the pitch number in the URL.
+If the user then selects another pitch type from the side nav, the same "index.php" page is reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page is reloaded, the "___pitch_selector.php" fragment determines which video reel to show based on the pitch number in the URL.
 
 ### Built With
 
 These are the major frameworks/libraries used in the project.
 
-Click on a badge to see an all-in-one, crash course on that technology.
+Click on a badge to see an all-in-one crash course on that technology.
 
 * [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.youtube.com/watch?v=pWBRjQBWuYA)
 * [![HTML](https://img.shields.io/badge/HMTL-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.youtube.com/watch?v=kDyJN7qQETA)
@@ -107,7 +107,7 @@ There are two ways to get the source code on your computer.
    ```
 2. Or you can just download the project:
    
-   1. Click the green Code button on the top right of the screen
+   1. Click the green Code button at the top right of the screen
    2. Select "Download ZIP"
 
 
@@ -124,26 +124,26 @@ The three variables are:
 2. $site_domain = "baseball-pitches.com"; ----- (The domain name you purchased for the site)
 3. $ga_measurement_id = "G-XXXXXXXXXX"; ----- (The Google Analytics Measurement ID for tracking the users on your site)
 
-Since you have the full source code under your control, you can make more changes too, like to the CSS styling, or the contents of the navigation menu.
+Since you have the full source code under your control, you can make more changes too, whether to the CSS styling, the contents of the navigation menu, or something else.
 
-You can even change the main YouTube video and repurpose the site from baseball pitching to something else. It all depends on your comfort level and requirements.
+You can even change the main YouTube video and repurpose the site from baseball pitching to another topic. It all depends on your comfort level and your goals.
 
 <!-- GETTING YOUR SITE ONLINE -->
 ## Getting Your Site Online
 
 There are a few steps you need to take to put the site online:
 
-1. Buy a domain name from a site like GoDaddy.com ([instructions](https://www.godaddy.com/how-to/real-tips-from-real-guides/how-to-buy-a-domain-with-godaddy))
+1. Buy a domain name from a site like GoDaddy.com ([instructions](https://www.godaddy.com/how-to/real-tips-from-real-guides/how-to-buy-a-domain-with-godaddy)).
    * I recommend getting Full Domain Protection so people can't look up your name and address based on the domain name
    * Also, uncheck "Start your website for FREE"
-2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain name through Hostinger! I like keeping all my domain names in one place at GoDaddy)
-3. Point your domain name at GoDaddy to your website account at Hostinger ([instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM))
-4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into the video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 6.)
+2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain name through Hostinger! I like keeping all my domain names in one place at GoDaddy).
+3. Point your GoDaddy domain name to your website account at Hostinger ([instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM)).
+4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into the video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 6.).
 5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 5).
-6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A))
+6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)).
    ![Filezilla_Screen_Short][filezilla-screenshot]
-   * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it : )
-8. Then test your site by opening a browser and typing your domain name in the address bar
+   * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it :) )
+8. Test your site by opening a browser and typing your domain name into the address bar.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
