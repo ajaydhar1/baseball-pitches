@@ -72,7 +72,7 @@ For this project, seperating the code into three PHP fragment files was done for
 
 ### Webpage Design
 
-The webpage consists of a full screen YouTube video and a side navigation menu for choosing the different types of pitches to show. When the user selects a pitch type from the side nav, the same "index.php" page reloads, and the selected pitch type appears in the address bar as a url parameter, like "pitch=1". Then the "___pitch_selector.php" fragment determines which video reel to show based on that pitch number.
+The webpage consists of a full screen YouTube video and a side navigation menu for choosing the different types of pitches to show. When the user selects a pitch type from the side nav, the same "index.php" page gets reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page reloads, the "___pitch_selector.php" fragment determines which video reel to show based on that pitch number in the URL.
 
 ### Built With
 
