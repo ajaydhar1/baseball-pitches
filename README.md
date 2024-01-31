@@ -125,7 +125,7 @@ You can even change the main YouTube video and purpose of the site from baseball
 <!-- GETTING YOUR SITE ONLINE -->
 ## Getting Your Site Online
 
-There are a few steps you need to take to put the site online. I am listing them here:
+There are a few steps you need to take to put the site online:
 
 1. Buy a domain name from a site like GoDaddy.com ([instructions](https://www.godaddy.com/how-to/real-tips-from-real-guides/how-to-buy-a-domain-with-godaddy))
    * I recommend getting Full Domain Protection so people can't look up your name and address based on the domain name
