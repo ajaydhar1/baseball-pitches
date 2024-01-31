@@ -4,9 +4,9 @@ The full source code for a PHP website I made that shows a visual glossary of th
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://baseball-pitches.com)
-
 This is a simple PHP website I made for myself to learn a little more about baseball ⚾. Pitching is like 90% of the game, so I figured if I could recognize the pitches as they're thrown, I could enjoy the games a little more. And it worked! I have grown to really enjoy watching baseball games : )
+
+[![Product Name Screen Shot][product-screenshot]](https://baseball-pitches.com)
 
 The project structure is very simple. It is a one page site with a side navigation menu for choosing the different types of pitches to show. When the user selects a pitch type, the same page reloads and the selected pitch type appears in the address bar as a url parameter, like "pitch=1", and the video reel corresponding to that pitch number is shown.
 
