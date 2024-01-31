@@ -20,7 +20,7 @@ These are the major frameworks/libraries used in the project.
 
 Click on a badge to see an all-in-one, crash course on that technology.
 
-* [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.youtube.com/watch?v=pWBRjQBWuYA)
+* [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=whit)](https://www.youtube.com/watch?v=pWBRjQBWuYA)
 * [![HTML](https://img.shields.io/badge/HMTL-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.youtube.com/watch?v=kDyJN7qQETA)
 * [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.youtube.com/watch?v=CUxH_rWSI1k)
 * [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=323330)](https://www.youtube.com/playlist?list=PLBA965A22D89CF13B)
@@ -43,9 +43,20 @@ There are two ways to get the source code on your computer.
    2. Selecting "Download ZIP"
 
 
-
 <!-- CONFIGURING THE CODE FOR YOUR OWN USE -->
 ## Configuring The Code For Your Own Use
+
+Modifying the project to make it your own is very easy. I have externalized three variables into the file "___config.php" (for configuration). These variables are the only things you need to change, at a minimum, to personalize the site as your own.
+
+The three variables are:
+
+1. $site_name = "Baseball Pitches"; ----- What you want to name your site
+2. $site_domain = "baseball-pitches.com"; ----- The domain name you purchased for the site
+3. $ga_measurement_id = "G-XXXXXXXXXX"; ----- The Google Analytics measurement ID for tracking the users on your site 
+
+Since you have the full source code under your control, you can make more changes too, like to the CSS styling or the contents of the navigation menu.
+
+You can even change the main YouTube video and purpose of the site from baseball pitching to something else. It all depends on your comfort level and requirements.
 
 <!-- GETTING YOUR SITE ONLINE -->
 ## Getting Your Site Online
