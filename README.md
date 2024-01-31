@@ -37,10 +37,10 @@ There are two ways to get the source code on your computer.
    ```sh
    git clone https://github.com/ajaydhar1/baseball-pitches.git
    ```
-2. Or you can just download the project by:
+2. Or you can just download the project:
    
-   1. Clicking the green Code button on the top right of the screen
-   2. Selecting "Download ZIP"
+   1. Click the green Code button on the top right of the screen
+   2. Select "Download ZIP"
 
 
 <!-- CONFIGURING THE CODE FOR YOUR OWN USE -->
