@@ -1,0 +1,147 @@
+body {
+    font-family: Arial;
+}
+
+#wrapper {
+    height: 100vh;
+}
+
+#player {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    opacity:1;
+}
+
+.ad-live {
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+}
+
+
+.embed-container-ad { 
+    position: relative;
+    /* padding-bottom: 56.25%; */
+    padding-bottom: 0;
+    height: 100vh;
+    overflow: hidden;
+    max-width: 100%;
+    /* height: auto; */
+}
+
+.embed-container-ad iframe,
+.embed-container-ad object,
+.embed-container-ad embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar-wrapper {
+    background: transparent;
+    overflow-y: auto;
+}
+
+.menu-toggle {
+    background: rgba(52, 58, 64);
+    border: solid deeppink 2px;
+}
+
+.menu-toggle.active {
+    background: rgba(52, 58, 64, .7);
+}
+
+#pitch-selector {
+    /* width: 250px; */
+    background: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#pitch-selector * {
+    color: white;
+    font-size: 1.05rem;
+}
+
+#pitch-selector .pitch-category {
+    width: 100%;
+    background: linear-gradient(to right, black, #89216B);
+    color: white;
+    padding: 10px 20px;
+
+}
+
+#pitch-selector .pitch-category-desc {
+    width: 100%;
+    background-image: linear-gradient(to right, black, transparent), url(https://media.giphy.com/media/KcnbWfsuFr7JpgowGT/giphy.gif);
+    color: white;
+    padding: 10px 20px;
+
+}
+
+#pitch-selector .pitch-desc-section {
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: #1a1a1a;
+    padding: 10px 20px;
+}
+
+#pitch-selector .pitch-desc-section p, #pitch-selector .pitch-desc-section span {
+    font-size: 1rem;
+}
+
+.header {
+    width: 100%;
+    background: black;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+.desc-header {
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+}
+
+/*
+ #pitch-selector .four-seamer {
+    color: yellow;
+}
+*/
+
+#pitch-selector .pitch-name {
+    color: black;
+    font-weight: 600;
+}
+
+#pitch-selector .pitch-desc-name {
+    color: black;
+}
+
+#pitch-selector .pitch-desc-type {
+    color: #acaaaa;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+#pitch-selector .pitch-type:hover {
+    cursor: pointer !important;
+}
+
+#pitch-selector .pitch-label {
+    color: #989898;
+}
