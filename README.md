@@ -45,9 +45,9 @@ For this site there is one webpage, "index.php", that imports three PHP fragment
 #### The Files:
 
 * index.php (homepage)
-* ___pitch-selector.php ----- (PHP fragment included in the homepage)
-* ___navigation.php ----- (PHP fragment included in the homepage)
-* ___config.php ----- (PHP fragment included in the homepage)
+* ___pitch-selector.php
+* ___navigation.php
+* ___config.php
 
 **Homepage:**
 
@@ -55,7 +55,7 @@ The one and only webpage in this project is named "index.php". Note, the default
 
 **PHP Fragments:**
 
-The three PHP fragment files use the naming convention of prepending the file name with three underscores, like "___config.php".
+There are three PHP fragment files that are included in the homepage. They use the naming convention of prepending the file name with three underscores, like "___config.php".
 
 For this project, seperating the code into three PHP fragment files was done for readability. But in larger, multi-page projects, it's also done for reusability. Like for showing the same menu across multiple pages. So if you have to make a change to the menu, you only have to make it in one file, the menu fragment file.
 
