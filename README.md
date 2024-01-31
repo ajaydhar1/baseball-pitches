@@ -20,7 +20,7 @@ These are the major frameworks/libraries used in the project.
 
 Click on a badge to see an all-in-one, crash course on that technology.
 
-* [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=whit)](https://www.youtube.com/watch?v=pWBRjQBWuYA)
+* [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.youtube.com/watch?v=pWBRjQBWuYA)
 * [![HTML](https://img.shields.io/badge/HMTL-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.youtube.com/watch?v=kDyJN7qQETA)
 * [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.youtube.com/watch?v=CUxH_rWSI1k)
 * [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=323330)](https://www.youtube.com/playlist?list=PLBA965A22D89CF13B)
