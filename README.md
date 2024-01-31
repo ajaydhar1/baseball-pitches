@@ -129,7 +129,7 @@ The three variables are:
 5. **$ga_measurement_id** = "G-XXXXXXXXXX";
    * The Google Analytics Measurement ID for tracking the users on your site
 
-Since you have the full source code under your control, you can make more changes too, whether to the CSS styling, the contents of the navigation menu, or something else.
+Since you have the full source code available to you, you can make more changes too, whether to the CSS styling, the contents of the navigation menu, or something else.
 
 You can even change the main YouTube video and repurpose the site from baseball pitching to another topic. It all depends on your comfort level and your goals.
 
