@@ -110,7 +110,9 @@ There are two ways to get the source code on your computer.
 <!-- CONFIGURING THE CODE FOR YOUR OWN USE -->
 ## Configuring The Code For Your Own Use
 
-Modifying the project to make it your own is very easy. I have externalized three variables into the file "___config.php" (for configuration). These variables are the only things you need to change, at a minimum, to personalize the site as your own.
+Modifying the project to make it your own is very easy. I have externalized three variables into the file "___config.php" (for configuration). These variables are the only things you need to change, at a minimum, to personalize the site and make it your own.
+
+![Config_File_Screen_Short][config-screenshot]
 
 The three variables are:
 
@@ -120,7 +122,7 @@ The three variables are:
 
 Since you have the full source code under your control, you can make more changes too, like to the CSS styling, or the contents of the navigation menu.
 
-You can even change the main YouTube video and purpose of the site from baseball pitching to something else. It all depends on your comfort level and requirements.
+You can even change the main YouTube video and repurpose the site from baseball pitching to something else. It all depends on your comfort level and requirements.
 
 <!-- GETTING YOUR SITE ONLINE -->
 ## Getting Your Site Online
@@ -142,3 +144,4 @@ There are a few steps you need to take to put the site online:
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://baseball-pitches.com/images/screenshot.jpg
 [directory-screenshot]: https://baseball-pitches.com/images/directory-structure.jpg
+[config-screenshot]: https://baseball-pitches.com/images/config-file.jpg
