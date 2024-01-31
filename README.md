@@ -38,7 +38,7 @@ This is a simple PHP website I made for myself to learn a little more about base
 
 ### Project File Structure
 
-The project structure is very simple and is the standard file structure for a website. Here is the directory structure:
+The project structure is very simple and is the standard file structure for a website. Here is the directory tree:
 
 ![Directory_Screen_Short][directory-screenshot]
 
