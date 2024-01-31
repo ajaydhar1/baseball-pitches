@@ -1,6 +1,32 @@
 # Baseball Pitches
 The full source code for a PHP website I made that shows a visual glossary of the main types of baseball pitches.
 
+<!-- TOC -->
+## Table Of Contents
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>TOC</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+         <li><a href="#project-file-structure">Project File Structure</a></li>
+         <ul>
+            <li><a href="#the-files">The Files</a></li>
+            <li><a href="#the-directories">The Directories</a></li>
+         </ul>
+         <li><a href="#webpage-design">Webpage Design</a></li>
+         <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#downloading-the-source-code">Downloading The Source Code</a></li>
+    <li><a href="#configuring-the-code-for-your-own-use">Configuring The Code For Your Own Use</a></li>
+    <li><a href="#getting-your-site-online">Getting Your Site Online</a></li>
+  </ol>
+</details>
+
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -8,11 +34,43 @@ This is a simple PHP website I made for myself to learn a little more about base
 
 [![Product Name Screen Shot][product-screenshot]](https://baseball-pitches.com)
 
-The project structure is very simple. It is a one page site with a side navigation menu for choosing the different types of pitches to show. When the user selects a pitch type, the same page reloads and the selected pitch type appears in the address bar as a url parameter, like "pitch=1", and the video reel corresponding to that pitch number is shown.
+### Project File Structure
 
-The one main webpage in the project is named "index.php". The default page that is shown when entering a domaim name in the address bar is always the file with the name "index". This is true for all websites.
+The project structure is very simple and is the standard file structure for a website. Here is the directory structure for the project:
 
-This index.php file imports a few PHP fragment files, which use the naming convention of prepending the file name with three underscores, like "___config.php". In this project, seperating the code into a few PHP fragment files was done for readability. But in larger, multi-page projects, it's also done for reusability. Like for showing the same menu across multiple pages. So if you have to make a change to the menu, you only have to make it in one file, the menu fragment file.
+![Directory_Screen_Short][directory-screenshot]
+
+For this site there is one webpage, "index.php", that imports three PHP fragments. 
+
+#### The Files:
+
+* index.php (homepage)
+* ___pitch-selector.php ----- (PHP fragment included in the homepage)
+* ___navigation.php ----- (PHP fragment included in the homepage)
+* ___config.php ----- (PHP fragment included in the homepage)
+
+**Homepage:**
+
+The one and only webpage in this project is named "index.php". Note, the default webpage that is shown when the domain name is entered in the address bar is always the file named "index". This is true for all websites.
+
+**PHP Fragments:**
+
+The three PHP fragment files use the naming convention of prepending the file name with three underscores, like "___config.php".
+
+For this project, seperating the code into three PHP fragment files was done for readability. But in larger, multi-page projects, it's also done for reusability. Like for showing the same menu across multiple pages. So if you have to make a change to the menu, you only have to make it in one file, the menu fragment file.
+
+#### The Directories:
+
+* css/
+   * Contains the CSS files for styling the site
+* images/
+   * Contains the images used for the site and also for this README file
+* js/
+   * Contains a JavaScript file
+
+### Webpage Design
+
+The webpage consists of a full screen YouTube video with a side navigation menu for choosing the different types of pitches to show. When the user selects a pitch type from the side nav, the same "index.php" page reloads, and the selected pitch type appears in the address bar as a url parameter, like "pitch=1". Then the "___pitch_selector.php" fragment determines which video reel to show based on that pitch number.
 
 ### Built With
 
@@ -77,3 +135,4 @@ There are a few steps you need to take to put the site online. I am listing them
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://baseball-pitches.com/images/screenshot.jpg
+[directory-screenshot]: https://baseball-pitches.com/images/directory-structure.jpg
