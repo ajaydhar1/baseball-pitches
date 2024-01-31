@@ -122,9 +122,12 @@ Modifying the project to make it your own is very easy. I have externalized thre
 
 The three variables are:
 
-1. $site_name = "Baseball Pitches"; ----- (What you want to name your site)
-2. $site_domain = "baseball-pitches.com"; ----- (The domain name you purchased for the site)
-3. $ga_measurement_id = "G-XXXXXXXXXX"; ----- (The Google Analytics Measurement ID for tracking the users on your site)
+1. **$site_name** = "Baseball Pitches";
+   * What you want to name your site
+3. **$site_domain** = "baseball-pitches.com";
+   * The domain name you purchased for the site
+5. **$ga_measurement_id** = "G-XXXXXXXXXX";
+   * The Google Analytics Measurement ID for tracking the users on your site
 
 Since you have the full source code under your control, you can make more changes too, whether to the CSS styling, the contents of the navigation menu, or something else.
 
@@ -140,7 +143,7 @@ There are a few steps you need to take to put the site online:
    * Also, uncheck "Start your website for FREE"
 2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain name through Hostinger! I like keeping all my domain names in one place at GoDaddy).
 3. Point your GoDaddy domain name to your website account at Hostinger ([instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM)).
-4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into this video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 6.).
+4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into this video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 5.).
 5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 4).
 6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)).
    ![Filezilla_Screen_Short][filezilla-screenshot]
