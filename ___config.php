@@ -13,6 +13,6 @@
 	$site_domain = "baseball-pitches.com";
 
 	// The Google Analytics easurement ID for tracking the users on your site
-	$ga_measurement_id = "G-W8ZWYETBX9";
+	$ga_measurement_id = "G-XXXXXXXXXX";
 
 ?>
