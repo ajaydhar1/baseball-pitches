@@ -33,7 +33,7 @@ There are two ways to get the source code on your computer.
    ```
 2. Or you can just download the project by:
    
-   1. Clicking the green Code button on the top right of the screen and
+   1. Clicking the green Code button on the top right of the screen
    2. Selecting "Download ZIP"
 
 
