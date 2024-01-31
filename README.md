@@ -8,6 +8,12 @@ The full source code for a PHP website I made that shows a visual glossary of th
 
 This is just a simple PHP website I made for myself to learn a little more about baseball ⚾ Pitching is like 90% of the game, so I figured if I could recognize the pitches as they are being thrown, I could enjoy the games a little more. And it worked! I have grown to really enjoy watching baseball games : )
 
+The project structure is very simple. It is a one page site with a side navigation menu for choosing the different types of pitches to show. When the user selects a pitch type, the same page reloads and the selected pitch type appears in the address bar as a url parameter, like "pitch=1", and the video reel corresponding to that pitch code is shown.
+
+The one main page is named "index.php". The default page that is shown when entering a domaim name in the address bar is the file with the name "index". This is true for all websites.
+
+This index.php file imports a few PHP fragment files, which use the naming convention of prepending the file name with three underscores, like "___config.php". In this project, seperating the code into a few PHP fragment files was done for readability. But in larger, multi-page projects, it's also done for reusability. Like for showing the same menu across multiple pages. So if you have to make a change to the menu, you only have to make it in one file, the menu fragment file.
+
 ### Built With
 
 These are the major frameworks/libraries used in the project.
