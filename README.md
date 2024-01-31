@@ -1,5 +1,5 @@
 # Baseball Pitches
-The full source code for a PHP website I built that shows a visual glossary of the primary types of baseball pitch.
+The full source code for a PHP website I built that shows a visual glossary of the primary types of baseball pitches.
 
 <!-- TOC -->
 ## Table Of Contents
@@ -36,7 +36,7 @@ This is a simple PHP website I made for myself to learn a little more about base
 
 ### Project File Structure
 
-The project structure is very simple and is the standard file structure for a website. Here is the directory structure for the project:
+The project structure is very simple and is the standard file structure for a website. Here is the directory structure:
 
 ![Directory_Screen_Short][directory-screenshot]
 
@@ -142,7 +142,7 @@ There are a few steps you need to take to put the site online:
 5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 5).
 6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)).
    ![Filezilla_Screen_Short][filezilla-screenshot]
-   * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it :) )
+   * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it :)
 8. Test your site by opening a browser and typing your domain name into the address bar.
 
 <!-- MARKDOWN LINKS & IMAGES -->
