@@ -54,7 +54,7 @@ The three variables are:
 2. $site_domain = "baseball-pitches.com"; ----- The domain name you purchased for the site
 3. $ga_measurement_id = "G-XXXXXXXXXX"; ----- The Google Analytics measurement ID for tracking the users on your site 
 
-Since you have the full source code under your control, you can make more changes too, like to the CSS styling or the contents of the navigation menu.
+Since you have the full source code under your control, you can make more changes too, like to the CSS styling, or the contents of the navigation menu.
 
 You can even change the main YouTube video and purpose of the site from baseball pitching to something else. It all depends on your comfort level and requirements.
 
