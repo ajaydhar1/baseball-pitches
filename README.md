@@ -138,6 +138,7 @@ There are a few steps you need to take to put the site online:
 5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 5).
 6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A))
    * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it : )
+![Filezilla_Screen_Short][filezilla-screenshot]
 7. Test your site by opening a browser and typing your domain name in the address bar
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -145,3 +146,4 @@ There are a few steps you need to take to put the site online:
 [product-screenshot]: https://baseball-pitches.com/images/screenshot.jpg
 [directory-screenshot]: https://baseball-pitches.com/images/directory-structure.jpg
 [config-screenshot]: https://baseball-pitches.com/images/config-file.jpg
+[filezilla-screenshot]: https://baseball-pitches.com/images/filezilla.jpg
