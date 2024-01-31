@@ -132,7 +132,7 @@ There are a few steps you need to take to put the site online:
 1. Buy a domain name from a site like GoDaddy.com ([instructions](https://www.godaddy.com/how-to/real-tips-from-real-guides/how-to-buy-a-domain-with-godaddy))
    * I recommend getting Full Domain Protection so people can't look up your name and address based on the domain name
    * Also, uncheck "Start your website for FREE"
-2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain through Hostinger! I like keeping all my domains in one place at GoDaddy)
+2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain name through Hostinger! I like keeping all my domain names in one place at GoDaddy)
 3. Point your domain name at GoDaddy to your website account at Hostinger ([instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM))
 4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into the video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 6.)
 5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 5).
