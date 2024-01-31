@@ -74,7 +74,7 @@ For this project, seperating the code into three PHP fragment files was done for
 
 The webpage consists of a full screen YouTube video and a side navigation menu for choosing the different types of pitches to show.
 
-When the user selects a pitch type from the side nav, the same "index.php" page gets reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page reloads, the "___pitch_selector.php" fragment determines which video reel to show based on the pitch number in the URL. If no pitch number is specified in the URL, the 4 Seam Fastball reel is shown by default. 
+When the user selects a pitch type from the side nav, the same "index.php" page gets reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page reloads, the "___pitch_selector.php" fragment determines which video reel to show based on the pitch number in the URL. If no pitch number is specified in the URL, like when the page is first visited, the 4 Seam Fastball reel is shown by default. 
 
 ### Built With
 
