@@ -57,7 +57,7 @@ Note: the default webpage that is shown when the domain name is entered in the a
 
 **PHP Fragments:**
 
-There are three PHP fragment files that are included in the homepage. They use the naming convention of prepending the file name with three underscores, like "___config.php".
+There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention of having the file name prepended with three underscores, like "___config.php".
 
 For this project, seperating the code into three PHP fragment files was done for readability. But in larger, multi-page projects, it's also done for reusability. Like for showing the same menu across multiple pages. So if you have to make a change to the menu, you only have to make it in one file, the menu fragment file.
 
