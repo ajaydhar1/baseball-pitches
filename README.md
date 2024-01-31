@@ -51,7 +51,9 @@ For this site there is one webpage, "index.php", that imports three PHP fragment
 
 **Homepage:**
 
-The one and only webpage in this project is named "index.php". Note, the default webpage that is shown when the domain name is entered in the address bar is always the file named "index". This is true for all websites.
+The one and only webpage in this project is named "index.php".
+
+Note: the default webpage that is shown when the domain name is entered in the address bar is always the file named "index". This is true for all websites.
 
 **PHP Fragments:**
 
