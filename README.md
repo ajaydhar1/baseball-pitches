@@ -114,7 +114,7 @@ There are two ways to get the source code on your computer.
 <!-- CONFIGURING THE CODE FOR YOUR OWN USE -->
 ## Configuring The Code For Your Own Use
 
-Modifying the project to make it your own is very easy. I have externalized three variables into the file "___config.php" (for configuration). These variables are the only things you need to change, at a minimum, to personalize the site and make it your own.
+Modifying the project to make it your own is very easy. I have externalized three variables into a configuration file named "___config.php". These variables are the only things you need to change, at a minimum, to personalize the site and make it your own.
 
 ![Config_File_Screen_Short][config-screenshot]
 
