@@ -130,13 +130,13 @@ There are a few steps you need to take to put the site online:
 1. Buy a domain name from a site like GoDaddy.com ([instructions](https://www.godaddy.com/how-to/real-tips-from-real-guides/how-to-buy-a-domain-with-godaddy))
    * I recommend getting Full Domain Protection so people can't look up your name and address based on the domain name
    * Also, uncheck "Start your website for FREE"
-3. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain through Hostinger! I like keeping all my domains in one place at GoDaddy)
-4. Point your domain name at GoDaddy to your website account at Hostinger [(instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM)]
-5. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8))([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into the video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 6.)
-6. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 5)
-7. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)])
+2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain through Hostinger! I like keeping all my domains in one place at GoDaddy)
+3. Point your domain name at GoDaddy to your website account at Hostinger ([instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM))
+4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into the video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 6.)
+5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 5).
+6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A))
    * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it : )
-8. Test your site by opening a browser and typing your domain name in the address bar.
+7. Test your site by opening a browser and typing your domain name in the address bar
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
