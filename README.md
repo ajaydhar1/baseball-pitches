@@ -50,9 +50,9 @@ Modifying the project to make it your own is very easy. I have externalized thre
 
 The three variables are:
 
-1. $site_name = "Baseball Pitches"; ----- What you want to name your site
-2. $site_domain = "baseball-pitches.com"; ----- The domain name you purchased for the site
-3. $ga_measurement_id = "G-XXXXXXXXXX"; ----- The Google Analytics measurement ID for tracking the users on your site 
+1. $site_name = "Baseball Pitches"; ----- (What you want to name your site)
+2. $site_domain = "baseball-pitches.com"; ----- (The domain name you purchased for the site)
+3. $ga_measurement_id = "G-XXXXXXXXXX"; ----- (The Google Analytics measurement ID for tracking the users on your site)
 
 Since you have the full source code under your control, you can make more changes too, like to the CSS styling, or the contents of the navigation menu.
 
