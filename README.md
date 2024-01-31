@@ -1,6 +1,8 @@
 # Baseball Pitches
 The full source code for a PHP website I built that shows a visual glossary of the primary types of baseball pitches.
 
+Click [here](https://baseball-pitches.com) to see the live site.
+
 <!-- TOC -->
 ## Table Of Contents
 
