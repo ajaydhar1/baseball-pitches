@@ -7,6 +7,7 @@ Click here to see the live site: [https://baseball-pitches.com](https://baseball
 ## Table Of Contents 📓
 
 <!-- TABLE OF CONTENTS -->
+<!--
 <details>
   <summary>TOC</summary>
   <ol>
@@ -25,6 +26,28 @@ Click here to see the live site: [https://baseball-pitches.com](https://baseball
     <li><a href="#downloading-the-source-code">Downloading The Source Code</a></li>
     <li><a href="#configuring-the-code-for-your-own-use">Configuring The Code For Your Own Use</a></li>
     <li><a href="#getting-your-site-online">Getting Your Site Online</a></li>
+  </ol>
+</details>
+-->
+
+<details>
+  <summary>TOC</summary>
+  <ol>
+    <li>
+      About The Project
+      <ul>
+         <li>Project File Structure</li>
+         <ul>
+            <li>📝 The Files</li>
+            <li>📂 The Directories</li>
+         </ul>
+         <li>Webpage Design</li>
+         <li>Built With 🔨</li>
+      </ul>
+    </li>
+    <li>Downloading The Source Code</li>
+    <li>Configuring The Code For Your Own Use</li>
+    <li>Getting Your Site Online</li>
   </ol>
 </details>
 
