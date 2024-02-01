@@ -4,7 +4,7 @@ The full source code for a PHP website I built that shows a visual glossary of t
 Click here to see the live site: [https://baseball-pitches.com](https://baseball-pitches.com)
 
 <!-- TOC -->
-## Table Of Contents
+## Table Of Contents 📓
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -44,26 +44,26 @@ The project structure is very simple and is the standard file structure for a we
 
 For this site there is one webpage, "index.php", that imports three PHP fragments. 
 
-#### The Files:
+#### 📝 The Files
 
 * index.php (homepage)
 * ___pitch-selector.php
 * ___navigation.php
 * ___config.php
 
-**Homepage:**
+🏠 **Homepage**
 
 The one and only webpage in this project is named "index.php".
 
 Note: the default webpage displayed when the domain name is entered into the address bar is always the file named "index". This is true for all websites.
 
-**PHP Fragments:**
+👑 **PHP Fragments**
 
 There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention that prepends the filename with three underscores, like "___config.php".
 
 For this project, some of the code from the "index.php" file was separated out into three PHP fragments for readability, but in larger, multi-page projects, it's also done for reusability. For instance, in order to show the same menu across multiple pages. This way, if you have to make a change to the menu, you only have to make it in one file: the menu fragment file.
 
-#### The Directories:
+#### 📂 The Directories
 
 * css/
    * Contains the CSS files for styling the site
@@ -78,13 +78,13 @@ The webpage consists of a full-screen YouTube video and a side navigation menu f
 
 [![Product Name Screen Shot][product-screenshot]](https://baseball-pitches.com)
 
-#### How It Works
+#### 💼 How It Works
 
 When the user first lands on the website, the reel for the Four Seam Fastball is shown by default.
 
 If the user then selects another pitch type from the side nav, the same "index.php" page is reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page is reloaded, the "___pitch_selector.php" fragment determines which video reel to show based on the pitch number in the URL.
 
-### Built With
+### Built With 🔨
 
 These are the major frameworks/libraries used in the project.
 
@@ -99,7 +99,7 @@ Click on a badge to see an all-in-one crash course on that technology.
 * [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://developers.google.com/youtube/iframe_api_reference)
 
 <!-- DOWNLOADING THE SOURCE CODE -->
-## Downloading The Source Code
+## Downloading The Source Code ⬇
 
 There are two ways to get the source code on your computer.
 
@@ -114,7 +114,7 @@ There are two ways to get the source code on your computer.
 
 
 <!-- CONFIGURING THE CODE FOR YOUR OWN USE -->
-## Configuring The Code For Your Own Use
+## Configuring The Code For Your Own Use 🔪
 
 Modifying the project to make it your own is very easy. I have externalized three variables into a configuration file named "___config.php". These variables are the only things you need to change, at a minimum, to personalize the site and make it your own.
 
@@ -134,7 +134,7 @@ Since you have the full source code available to you, you can make more changes 
 You can even change the main YouTube video and repurpose the site from baseball pitching to another topic. It all depends on your comfort level and your goals.
 
 <!-- GETTING YOUR SITE ONLINE -->
-## Getting Your Site Online
+## Getting Your Site Online 🔌
 
 There are a few steps you need to take to put the site online:
 
