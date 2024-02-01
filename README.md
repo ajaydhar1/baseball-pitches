@@ -130,7 +130,7 @@ Click on a badge to see an all-in-one crash course on that technology.
 
 There are two ways to get the source code on your computer.
 
-1. If you have Git installed on your machine, you can clone the repo
+1. If you have Git installed on your machine, you can clone the repo:
    ```sh
    git clone https://github.com/ajaydhar1/baseball-pitches.git
    ```
