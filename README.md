@@ -69,7 +69,7 @@ The project structure for this website is very simple, and is the standard file 
 
 ![Directory_Screen_Short][directory-screenshot]
 
-For this site there is one webpage, ```index.php```, that imports three PHP fragments. 
+For this site there is one webpage, ```index.php```, and it imports three PHP fragments. 
 
 #### 📝 The Files
 
