@@ -186,7 +186,7 @@ Update the configuration file ```___config.php``` in the project as mentioned ab
 Connect to your hosting provider using FileZilla and upload the project files into the ```public_html``` folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)).
 
    ![Filezilla_Screen_Short][filezilla-screenshot]
-When you connect to Hostinger using FileZilla, your computer's directory structure appears on the left and the server's directory structure shows on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live on the server). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it!
+When you connect to Hostinger using FileZilla, your computer's directory structure appears on the left and the server's directory structure shows on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live on the server). Then just select all the files and sub-folders inside your project folder on the left, and drag and drop them into the public_html folder on the right. That's it!
 
 ### Step 7:
 Test your site by opening a browser and typing your domain name into the address bar.
