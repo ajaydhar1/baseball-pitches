@@ -51,7 +51,7 @@ For this site there is one webpage, ```index.php```, that imports three PHP frag
 * ___navigation.php
 * ___config.php
 
-🏠 **Homepage**
+🏠 **The Homepage**
 
 The one and only webpage in this project is named ```index.php```.
 
