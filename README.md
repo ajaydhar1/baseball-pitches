@@ -80,7 +80,7 @@ The one and only webpage in this project is named ```index.php```.
 
 Note: the default webpage displayed when the domain name is entered into the address bar is always the file named ```index```. This is true for all websites.
 
-👑 **PHP Fragments**
+👑 **The PHP Fragments**
 
 There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention that prepends the filename with three underscores, like ```___config.php```.
 
