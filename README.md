@@ -191,5 +191,5 @@ Test your site by opening a browser and typing your domain name into the address
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: https://baseball-pitches.com/images/screenshot.jpg
 [directory-screenshot]: https://baseball-pitches.com/images/directory-structure.jpg
-[config-screenshot]: https://baseball-pitches.com/images/config-file.jpg
-[filezilla-screenshot]: https://baseball-pitches.com/images/filezilla.jpg?v=2
+[config-screenshot]: https://baseball-pitches.com/images/config-file-4.jpg
+[filezilla-screenshot]: https://baseball-pitches.com/images/filezilla-3.jpg?
