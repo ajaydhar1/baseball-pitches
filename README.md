@@ -80,7 +80,7 @@ For this site there is one webpage, ```index.php```, that imports three PHP frag
 
 The one and only webpage in this project is named ```index.php```.
 
-Note: the default webpage displayed when the domain name is entered into the address bar is always the file named ```index```. This is true for all websites.
+**Note:** the default webpage displayed when the domain name is entered into the address bar is always the file named ```index```. This is true for all websites.
 
 👑 **The PHP Fragments**
 
