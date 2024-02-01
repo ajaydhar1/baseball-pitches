@@ -5,6 +5,8 @@ Click here to see the live site: [https://baseball-pitches.com](https://baseball
 
 ![Pitching_Flames][pitching-flames]
 
+This README file is meant for people at every level of software experience, from Zero to Hero.
+
 <!-- TOC -->
 ## Table Of Contents 📓
 
