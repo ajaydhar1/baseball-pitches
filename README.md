@@ -13,7 +13,7 @@ Click here to see the live site: [https://baseball-pitches.com](https://baseball
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-         <li><a href="#project-file-structure">Project File Structure</a></li>
+         <li><a href=#project-file-structure>Project File Structure</a></li>
          <ul>
             <li><a href="#the-files">The Files</a></li>
             <li><a href="#the-directories">The Directories</a></li>
@@ -42,7 +42,7 @@ The project structure is very simple and is the standard file structure for a we
 
 ![Directory_Screen_Short][directory-screenshot]
 
-For this site there is one webpage, "index.php", that imports three PHP fragments. 
+For this site there is one webpage, ```index.php```, that imports three PHP fragments. 
 
 #### 📝 The Files
 
@@ -53,15 +53,15 @@ For this site there is one webpage, "index.php", that imports three PHP fragment
 
 🏠 **Homepage**
 
-The one and only webpage in this project is named "index.php".
+The one and only webpage in this project is named ```index.php```.
 
-Note: the default webpage displayed when the domain name is entered into the address bar is always the file named "index". This is true for all websites.
+Note: the default webpage displayed when the domain name is entered into the address bar is always the file named ```index```. This is true for all websites.
 
 👑 **PHP Fragments**
 
-There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention that prepends the filename with three underscores, like "___config.php".
+There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention that prepends the filename with three underscores, like ```___config.php```.
 
-For this project, some of the code from the "index.php" file was separated out into three PHP fragments for readability, but in larger, multi-page projects, it's also done for reusability. For instance, in order to show the same menu across multiple pages. This way, if you have to make a change to the menu, you only have to make it in one file: the menu fragment file.
+For this project, some of the code from the ```index.php``` file was separated out into three PHP fragments for readability, but in larger, multi-page projects, it's also done for reusability. For instance, in order to show the same menu across multiple pages. This way, if you have to make a change to the menu, you only have to make it in one file: the menu fragment file.
 
 #### 📂 The Directories
 
@@ -82,7 +82,7 @@ The webpage consists of a full-screen YouTube video and a side navigation menu f
 
 When the user first lands on the website, the reel for the Four Seam Fastball is shown by default.
 
-If the user then selects another pitch type from the side nav, the same "index.php" page is reloaded, and the selected pitch type appears in the address bar as a URL parameter, like "pitch=1". When the page is reloaded, the "___pitch_selector.php" fragment determines which video reel to show based on the pitch number in the URL.
+If the user then selects another pitch type from the side nav, the same ```index.php``` page is reloaded, and the selected pitch type appears in the address bar as a URL parameter, like ```pitch=1```. When the page is reloaded, the ```___pitch_selector.php``` fragment determines which video reel to show based on the pitch number in the URL.
 
 ### Built With 🔨
 
@@ -116,7 +116,7 @@ There are two ways to get the source code on your computer.
 <!-- CONFIGURING THE CODE FOR YOUR OWN USE -->
 ## Configuring The Code For Your Own Use 🔪
 
-Modifying the project to make it your own is very easy. I have externalized three variables into a configuration file named "___config.php". These variables are the only things you need to change, at a minimum, to personalize the site and make it your own.
+Modifying the project to make it your own is very easy. I have externalized three variables into a configuration file named ```___config.php```. These variables are the only things you need to change, at a minimum, to personalize the site and make it your own.
 
 ![Config_File_Screen_Short][config-screenshot]
 
@@ -144,8 +144,8 @@ There are a few steps you need to take to put the site online:
 2. Sign up for a hosting plan from a site like Hostinger.com ([instructions](https://www.youtube.com/watch?v=s8OwGRqmdMs) - Stop at 2:15 into the video!! Unlike they say in the video, I recommend you do not buy the domain name through Hostinger! I like keeping all my domain names in one place at GoDaddy).
 3. Point your GoDaddy domain name to your website account at Hostinger ([instructions](https://www.youtube.com/watch?v=k7M1p3ExdfM)).
 4. Create a Google Analytics account for your new domain name ([instructions - step 1](https://www.youtube.com/watch?v=ybK-VUAxZ_8)) ([instructions - step 2](https://www.youtube.com/watch?v=kYdRHSH2l8k) - Stop at 0:38 into this video!! You can see the Measurement ID in the top right of the screen. Copy that for Step 5.).
-5. Update the configuration file "___config.php" in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 4).
-6. Connect to your hosting provider using FileZilla and upload the project files into the "public_html" folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)).
+5. Update the configuration file ```___config.php``` in the project as mentioned above. Update the site name, site domain (from Step 1), and Google Analytics Measurement ID (from Step 4).
+6. Connect to your hosting provider using FileZilla and upload the project files into the ```public_html``` folder ([instructions for connecting FileZilla to Hostinger account](https://www.youtube.com/watch?v=efgPQw0Aq2A)).
    ![Filezilla_Screen_Short][filezilla-screenshot]
    * When you connect to Hostinger using FileZilla, your computer's directory structure is on the left and the server's directory structure is on the right. On the left, navigate to your project folder. On the right, you should click on the public_html folder (this is where your website files will live). Then just select all the files from your project folder on the left, and drag and drop them into the public_html folder on the right. That's it :)
 8. Test your site by opening a browser and typing your domain name into the address bar.
