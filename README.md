@@ -3,6 +3,8 @@ The full source code for a PHP website I built that shows a visual glossary of t
 
 Click here to see the live site: [https://baseball-pitches.com](https://baseball-pitches.com)
 
+![Pitching_Flames][pitching-flames]
+
 <!-- TOC -->
 ## Table Of Contents 📓
 
@@ -192,4 +194,5 @@ Test your site by opening a browser and typing your domain name into the address
 [product-screenshot]: https://baseball-pitches.com/images/screenshot.jpg
 [directory-screenshot]: https://baseball-pitches.com/images/directory-structure.jpg
 [config-screenshot]: https://baseball-pitches.com/images/config-file-4.jpg
-[filezilla-screenshot]: https://baseball-pitches.com/images/filezilla-3.jpg?
+[filezilla-screenshot]: https://baseball-pitches.com/images/filezilla-3.jpg
+[pitching-flames]: https://baseball-pitches.com/images/pitching-flames.gif
