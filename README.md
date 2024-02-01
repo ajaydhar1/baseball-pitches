@@ -88,7 +88,7 @@ The one and only webpage in this project is named ```index.php```.
 
 There are three PHP fragment files that are imported into the homepage. These fragments use the naming convention that prepends the filename with three underscores, like ```___config.php```.
 
-For this project, some of the code from the ```index.php``` file was separated out into three PHP fragments for readability, but in larger, multi-page projects, it's also done for reusability. For instance, in order to show the same menu across multiple pages. This way, if you have to make a change to the menu, you only have to make it in one file: the menu fragment file.
+While developing this site, some of the code from the ```index.php``` file was separated out into three PHP fragments for readability, but in larger, multi-page projects, it's also done for reusability. For instance, in order to show the same menu across multiple pages. This way, if you have to make a change to the menu, you only have to make it in one file: the menu fragment file.
 
 #### 📂 The Directories
 
