@@ -143,7 +143,7 @@ Modifying the project to make it your own is very easy. I have externalized thre
 
 ![Config_File_Screen_Short][config-screenshot]
 
-The three variables are:
+**The 3 variables are:**
 
 1. **$site_name** = "Baseball Pitches";
    * What you want to name your site
